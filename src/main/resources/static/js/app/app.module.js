@@ -1,3 +1,6 @@
 angular.module('boardApp', [
-    'helloWorld'
+  'ngRoute',
+  'helloWorld',
+  'postList',
+  'postDetail'
 ]);

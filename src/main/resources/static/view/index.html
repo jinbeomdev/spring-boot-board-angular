@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8"/>
     <title>index</title>
+
+    <link rel="stylesheet" href="css/lib/css/bootstrap.css">
 </head>
-<body>
-<hello-world></hello-world>
-</body>
-<script src="js/lib/angular.min.js"></script>
+
+<div class="row grow w-100">
+    <div class="col-12 bg-dark py-3 text-white text-center">
+        Board Tutorial!! Come Back~~
+    </div>
+    <div class="col-4 bg-white py-3">
+        <div><a href="#/">main</a></div>
+        <div><a href="#/board">board</a></div>
+    </div>
+    <div class="main col-8 bg-white h-100 py-3">
+        <div ng-view></div>
+    </div>
+</div>
+<div class="row w-100">
+    <div class="col-12 py-3 bg-light text-center">
+        jinbeom@fasoo.com
+    </div>
+</div>
+
+<!-- bootstrap, jquery -->
+<script src="js/lib/jquery/dist/jquery.js"></script>
+<script src="css/lib/js/bootstrap.js"></script>
+
+<!-- angular core -->
+<script src="js/lib//angular/angular.js"></script>
+<script src="js/lib//angular-route/angular-route.js"></script>
+
+<!-- boardApp angular module and config -->
 <script src="js/app/app.module.js"></script>
+<script src="js/app/app.config.js"></script>
+
+<!-- custom js -->
 <script src="js/app/hello-world/hello-world.module.js"></script>
 <script src="js/app/hello-world/hello-world.component.js"></script>
+<script src="js/app/post-list/post-list.module.js"></script>
+<script src="js/app/post-list/post-list.component.js"></script>
+<script src="js/app/post-detail/post-detail.module.js"></script>
+<script src="js/app/post-detail/post-detail.component.js"></script>
 </html>

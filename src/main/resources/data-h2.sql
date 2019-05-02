@@ -1,0 +1,10 @@
+insert into post (title, author, content, created_date, modified_date) values ('테스트1', 'test1@gmail.com', '테스트1의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트2', 'test2@gmail.com', '테스트2의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트3', 'test3@gmail.com', '테스트3의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트4', 'test4@gmail.com', '테스트4의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트5', 'test5@gmail.com', '테스트5의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트6', 'test6@gmail.com', '테스트6의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트7', 'test7@gmail.com', '테스트7의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트8', 'test8@gmail.com', '테스트8의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트9', 'test9@gmail.com', '테스트9의 본문', now(), now());
+insert into post (title, author, content, created_date, modified_date) values ('테스트10', 'test10@gmail.com', '테스트10의 본문', now(), now());
