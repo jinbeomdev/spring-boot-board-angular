@@ -3,6 +3,7 @@ package com.fasoo.boardangular.dto;
 import com.fasoo.boardangular.entity.Post;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -10,6 +11,7 @@ import java.util.Optional;
 
 @Getter
 @Setter
+@ToString
 public class GetPostsDto {
   private Long id;
   private String title;

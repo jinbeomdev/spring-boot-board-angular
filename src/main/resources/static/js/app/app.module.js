@@ -2,5 +2,9 @@ angular.module('boardApp', [
   'ngRoute',
   'helloWorld',
   'postList',
-  'postDetail'
+  'postDetail',
+  'login',
+  'navigation',
+  'writePost',
+  'updatePost'
 ]);

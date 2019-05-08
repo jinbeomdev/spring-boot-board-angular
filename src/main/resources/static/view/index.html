@@ -12,8 +12,7 @@
         Board Tutorial!! Come Back~~
     </div>
     <div class="col-4 bg-white py-3">
-        <div><a href="#/">main</a></div>
-        <div><a href="#/board">board</a></div>
+        <navigation></navigation>
     </div>
     <div class="main col-8 bg-white h-100 py-3">
         <div ng-view></div>
@@ -30,8 +29,8 @@
 <script src="css/lib/js/bootstrap.js"></script>
 
 <!-- angular core -->
-<script src="js/lib//angular/angular.js"></script>
-<script src="js/lib//angular-route/angular-route.js"></script>
+<script src="js/lib/angular/angular.js"></script>
+<script src="js/lib/angular-route/angular-route.js"></script>
 
 <!-- boardApp angular module and config -->
 <script src="js/app/app.module.js"></script>
@@ -40,8 +39,22 @@
 <!-- custom js -->
 <script src="js/app/hello-world/hello-world.module.js"></script>
 <script src="js/app/hello-world/hello-world.component.js"></script>
+
 <script src="js/app/post-list/post-list.module.js"></script>
 <script src="js/app/post-list/post-list.component.js"></script>
+
 <script src="js/app/post-detail/post-detail.module.js"></script>
 <script src="js/app/post-detail/post-detail.component.js"></script>
+
+<script src="js/app/login/login.module.js"></script>
+<script src="js/app/login/login.component.js"></script>
+
+<script src="js/app/navigation/navigation.module.js"></script>
+<script src="js/app/navigation/navigation.component.js"></script>
+
+<script src="js/app/write-post/write-post.module.js"></script>
+<script src="js/app/write-post/write-post.component.js"></script>
+
+<script src="js/app/update-post/update-post.module.js"></script>
+<script src="js/app/update-post/update-post.component.js"></script>
 </html>

@@ -1,0 +1,6 @@
+<ul>
+    <li><a href="#/" ng-click="$ctrl.onClick($event)">home</a></li>
+    <li><a href="#/board" ng-click="$ctrl.onClick($event)">board</a></li>
+    <li ng-show="!$root.authenticated"><a href="#/login" ng-click="$ctrl.onClick($event)">login</a></li>
+    <li ng-show="$root.authenticated"><a href="#/" ng-click="$ctrl.logout()">logout</a></li>
+</ul>

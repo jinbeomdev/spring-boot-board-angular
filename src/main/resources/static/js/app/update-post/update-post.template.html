@@ -1,0 +1,9 @@
+<form ng-submit="$ctrl.update()">
+    <div class="title">
+        <input type="text" ng-model="$ctrl.post.title">
+    </div>
+    <div>
+        <textarea ng-model="$ctrl.post.content"></textarea>
+    </div>
+    <button type="submit">수정</button><button type="reset" ng-click="$ctrl.onCancel()">취소</button>
+</form>
